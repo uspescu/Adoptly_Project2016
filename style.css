@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header{
+  background-color: #30627E;
+  font-size: 28px;
+  text-align: center;
+  height: 80px;
+  
+  
+}
+
+.header ul{
+  list-style-type: none;
+  margin-top: 20px;
+  
+}
+
+.header ul li{
+   display: inline;
+  color: white;
+  padding: 23px 20px 21px 20px;
+}
+
+.red-back{
+  background-color: #E52364;
+  font-size: 30px;
+ 
+}
+
+.jumbotron{
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.jumbotron h1{
+  color: #E52364;
+  font-weight: bold;
+}
+
+
+.footer{
+  text-align: center;
+  padding-top: 45px;
+  
+}
+
+.footer ul{
+  float: left;
+  list-style-type: none;
+  width: 250px;
+  margin-bottom: 20px;
+  padding: 0px;
+  margin: 20px 30px 20px 30px;
+}
+
+.footer ul li{
+  font-size: 30px;
+}
+
+.footer p{
+  padding: 0px;
+}
+
+.btn{
+  border: 1px solid black;
+  padding: 10px 70px 10px 70px;
+  margin-top: 50px;
+    
+}
+
+
+.last-footer{
+  background-color: #e52364;
+  height: 80px;
+}
+
+.last-footer p{
+  font-size: 20px;
+  float: left;
+  margin-top: 25px;
+}
+
+.last-footer a{
+  float:right;
+  padding: 20px;
+  text-decoration: none;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+
+.last-footer a:hover{
+  border: 1px solid white;
+  background-color: white;
+}
+
+
+
+@media (max-width: 500px) {
+  
+  ul li {
+    width: 100%;
+  }
+  
+  .header{
+  background-color: #30627E;
+  font-size: 28px;
+  text-align: center;
+    height: 450px;
+    width: 100%;
+  
+  }
+  
+  .header ul li{
+   display: block;
+  color: white;
+    margin: 0px;
+}
+  
+  .footer{
+    position: relative;
+    left: 50px;
+  }
+  
+  .btn{
+  border: 1px solid black;
+  padding: 10px 70px 10px 70px;
+  margin-top: 10px;
+    
+}
+  .last-footer{
+  background-color: #e52364;
+  height: 100px;
+    margin-top: 50px;
+}
+}
